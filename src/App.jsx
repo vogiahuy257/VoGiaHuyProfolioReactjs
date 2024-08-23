@@ -9,7 +9,7 @@ import Content from './Content.jsx';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/VoGiaHuyProfolioReactjs">
       <section id="main">
         <div className="container">
           <Header />
