@@ -1,0 +1,24 @@
+[
+    {
+      "id": "mindx",
+      "title": "Mentor - MindX Technology School",
+      "date": "12/2022 - Now",
+      "image": "/img/mindx.jpg",
+      "details": "- Assisted in teaching Web development and Scratch.<br/>- Helped students learn fundamental web technologies including HTML, CSS, and JavaScript.<br/>- Provided guidance on Scratch programming for young learners."
+    },
+    {
+      "id": "vietjapan",
+      "title": "PHP Laravel Practical Training - Viet Japan Digital Co., Ltd",
+      "date": "05/2024 - 07/2024",
+      "image": "/img/vietjapan.jpg",
+      "details": "- Team leader in a web project supporting designers for Sakura Studio.<br/>- Contributed to the design and implementation of dynamic database fields, admin dashboard, user contact management page, design creation page, and language switch mode.<br/>- Utilized Laravel PHP, Bootstrap 5, and MySQL to build and enhance project components."
+    },
+    {
+      "id": "vtd",
+      "title": "Full Stack Developer Intern - Viet Tri Dao Digital Technology Co., Ltd",
+      "date": "07/2024 - 08/2024",
+      "image": "/img/VTD.png",
+      "details": "- Contributed to the development of an auction website for the U.S. market.<br/>- Worked on a simulated project with a scale and workflow similar to real-world scenarios.<br/>- Collaborated with a team of 20 members including BA, Tester, and Dev roles.<br/>- Designed the interface using Figma, developed the responsive Home screen, and adhered to team conventions for a cohesive project development process."
+    }
+  ]
+  
