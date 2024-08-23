@@ -1,15 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import skillsData from '../data/skills.json'; 
 
 function Skill() {
-  const [skillsData, setSkillsData] = useState([]);
-
-  useEffect(() => {
-    fetch('/data/skills.json')
-      .then(response => response.json())
-      .then(data => setSkillsData(data))
-      .catch(error => console.error('Error fetching skills data:', error));
-  }, []);
-
   return (
     <section className="box-content Skills">
       <div className="skills-list">

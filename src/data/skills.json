@@ -1,0 +1,71 @@
+[
+    {
+        "id": "programming-languages",
+        "icon": "./IconSkills/programming-languages/programming-languages.png",
+        "title": "Programming Languages",
+        "skills": [
+            "./IconSkills/programming-languages/c-plus-plus.png",
+            "./IconSkills/programming-languages/c-sharp.png",
+            "./IconSkills/programming-languages/java.png",
+            "./IconSkills/programming-languages/php.png",
+            "./IconSkills/programming-languages/javascript.png",
+            "./IconSkills/programming-languages/python.png"
+        ]
+    },
+    {
+        "id": "databases",
+        "icon": "./IconSkills/databases/databases.png",
+        "title": "Databases",
+        "skills": [
+            "./IconSkills/databases/mysql.png",
+            "./IconSkills/databases/sql-server.png"
+        ]
+    },
+    {
+        "id": "frontend-development",
+        "icon": "./IconSkills/Frontend/frontend-development.png",
+        "title": "Front-End Development",
+        "skills": [
+            "./IconSkills/Frontend/html.png",
+            "./IconSkills/Frontend/css.png",
+            "./IconSkills/Frontend/bootstrap.png",
+            "./IconSkills/Frontend/react.png",
+            "./IconSkills/Frontend/nextJs.png"
+        ]
+    },
+    {
+        "id": "backend-development",
+        "icon": "./IconSkills/Backend/backend-development.png",
+        "title": "Back-End Development",
+        "skills": [
+            "./IconSkills/Backend/laravel.svg"
+        ]
+    },
+    {
+        "id": "version-control",
+        "icon": "./IconSkills/VersionControl/version-control.png",
+        "title": "Version Control",
+        "skills": [
+            "./IconSkills/VersionControl/git.png",
+            "./IconSkills/VersionControl/github.png"
+        ]
+    },
+    {
+        "id": "containerization",
+        "icon": "./IconSkills/Containerization/containerization.png",
+        "title": "Containerization and Orchestration",
+        "skills": [
+            "./IconSkills/Containerization/docker.png",
+            "./IconSkills/Containerization/kubernetes.png"
+        ]
+    },
+    {
+        "id": "programming-methodology",
+        "icon": "./IconSkills/Methodology/programming-methodology.png",
+        "title": "Programming Methodology",
+        "skills": [
+            "./IconSkills/Methodology/oop.png",
+            "./IconSkills/Methodology/mvc.png"
+        ]
+    }
+]

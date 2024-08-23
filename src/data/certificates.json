@@ -2,49 +2,49 @@
     {
       "id": "google-ai",
       "title": "Google AI Essentials",
-      "image": "/img/google-ai-essentials.png",
+      "image": "./img/google-ai-essentials.png",
       "issuer": "Google",
       "details": "- 📘 Overview: This course provides a comprehensive introduction to artificial intelligence (AI) and its applications.<br/>- 📚 Key Topics: Machine learning, neural networks, and AI tools and techniques.<br/>- 🛠️ Skills Gained: Implementing AI solutions, understanding AI ethics and limitations, and applying AI to solve real-world problems.<br/>- 🏆 Projects: Hands-on projects involving AI algorithms and machine learning models."
     },
     {
       "id": "ux-foundations",
       "title": "Foundations of User Experience (UX) Design",
-      "image": "/img/ux-foundations.png",
+      "image": "./img/ux-foundations.png",
       "issuer": "Google",
       "details": "- 📘 Overview: An introduction to UX design principles and practices.<br/>- 📚 Key Topics: User research methods, wireframing, prototyping, and usability testing.<br/>- 🛠️ Skills Gained: Creating user personas, developing wireframes and prototypes, and conducting user testing to improve designs.<br/>- 🏆 Projects: Real-world case studies and design projects to build practical UX skills."
     },
     {
       "id": "Crash-Course-on-Python",
       "title": "Crash Course on Python",
-      "image": "/img/Crash-Course-on-Python.png",
+      "image": "./img/Crash-Course-on-Python.png",
       "issuer": "Google",
       "details": "- 📘 Overview: A foundational course in Python programming designed for beginners.<br/>- 📚 Key Topics: Python syntax, data structures, control flow, and basic libraries.<br/>- 🛠️ Skills Gained: Writing Python scripts, working with data, and creating automation tools.<br/>- 🏆 Projects: Practical exercises and projects involving data manipulation, web scraping, and automation."
     },
     {
       "id": "ibm-full-stack",
       "title": "IBM Full Stack Software Developer",
-      "image": "/img/ibm-full-stack.png",
+      "image": "./img/ibm-full-stack.png",
       "issuer": "IBM",
       "details": "- 📘 Overview: This Professional Certificate encompasses 10 courses covering various application development and cloud technologies.<br/>- 📚 Key Topics:<br/>  - HTML, CSS, JavaScript, GitHub<br/>  - Node.js, React<br/>  - Cloud Native practices, DevOps, CI/CD<br/>  - Containers, Docker, Kubernetes, OpenShift<br/>  - Python programming<br/>  - Databases, SQL, NoSQL, Django ORM<br/>  - Bootstrap<br/>  - Application Security, Microservices, Serverless computing<br/>- 🛠️ Skills Gained:<br/>  - Developing cloud-native applications using modern technologies and practices.<br/>  - Hands-on experience with application development, cloud deployments, and CI/CD pipelines.<br/>  - Deployment of multiple applications on cloud platforms, application security, and microservices architecture.<br/>- 🏆 Projects:<br/>  - Capstone project demonstrating comprehensive application of learned skills.<br/>  - Development and delivery of a Software as a Service (SaaS) solution using cloud-native methodologies."
     },
     {
       "id": "react-frontend",
       "title": "Developing Front-End Apps with React",
-      "image": "/img/react-frontend-development.png",
+      "image": "./img/react-frontend-development.png",
       "issuer": "IBM",
       "details": "- 📘 Overview: An in-depth course on building interactive user interfaces with React.<br/>- 📚 Key Topics: React components, state management, React hooks, and routing.<br/>- 🛠️ Skills Gained: Developing dynamic and responsive web applications, managing application state, and creating reusable components.<br/>- 🏆 Projects: Hands-on projects involving React applications, including single-page apps and complex user interfaces."
     },
     {
       "id": "frontend-meta",
       "title": "Introduction to Front End Development",
-      "image": "/img/Introduction-to-Front-End-Development.png",
+      "image": "./img/Introduction-to-Front-End-Development.png",
       "issuer": "Meta",
       "details": "- 📘 Overview: A beginner-friendly course on front-end development.<br/>- 📚 Key Topics: HTML, CSS, JavaScript, and basic web development principles.<br/>- 🛠️ Skills Gained: Building and styling web pages, handling user interactions, and understanding basic web technologies.<br/>- 🏆 Projects: Simple web projects to apply front-end development skills and create functional web pages."
     },
     {
       "id": "vietjapan-internship",
       "title": "Internship Certificate to Viet Japan Digital Co., Ltd.",
-      "image": "/img/vietjapan-internship.jpg",
+      "image": "./img/vietjapan-internship.jpg",
       "issuer": "General",
       "details": "- 📘 Internship Overview: Practical experience working in a digital technology company.<br/>- 📚 Key Responsibilities: Contributing to web development projects, collaborating with development teams, and applying industry best practices.<br/>- 🛠️ Skills Gained: Practical skills in web development, teamwork, and project management.<br/>- 🏆 Projects: Involvement in real-world projects with a focus on web technologies and software development practices."
     }

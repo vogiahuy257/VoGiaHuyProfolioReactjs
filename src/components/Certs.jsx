@@ -1,15 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import certificatesData from '../data/certificates.json'; 
 
 function Certs() {
-  const [certificates, setCertificates] = useState([]);
+  const [certificates] = useState(certificatesData); 
   const [selectedCert, setSelectedCert] = useState(null);
-
-  useEffect(() => {
-    fetch('/data/certificates.json')
-      .then(response => response.json())
-      .then(data => setCertificates(data))
-      .catch(error => console.error('Error fetching certificates:', error));
-  }, []);
 
   const groupTitles = {
     'Google': 'Certificates from Google',

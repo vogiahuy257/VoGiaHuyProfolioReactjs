@@ -1,16 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import experiencesData from '../data/experiences.json'; // Import dữ liệu từ JSON
 
 function Work() {
   const [selectedExperience, setSelectedExperience] = useState(null);
-  const [experiences, setExperiences] = useState([]);
-
-  useEffect(() => {
-    // Fetch the JSON file from the public folder
-    fetch('/data/experiences.json')
-      .then(response => response.json())
-      .then(data => setExperiences(data))
-      .catch(error => console.error('Error fetching data:', error));
-  }, []);
+  const [experiences] = useState(experiencesData); // Sử dụng dữ liệu đã import
 
   const handleExperienceClick = (id) => {
     setSelectedExperience(experiences.find(exp => exp.id === id));
