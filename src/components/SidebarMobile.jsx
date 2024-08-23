@@ -8,32 +8,32 @@ function SidebarMobile() {
   return (
     <nav className="sidebar-mobile">
       <ul className="menu">
-        <li className={location.pathname === '/VoGiaHuyProfolioReactjs/' ? 'active' : ''}>
-          <Link to="/VoGiaHuyProfolioReactjs/">
+        <li className={location.pathname === '/' ? 'active' : ''}>
+          <Link to="/">
             <span className="material-icons">person</span>
             <p>Home</p>
           </Link>
         </li>
-        <li className={location.pathname === '/VoGiaHuyProfolioReactjs/work' ? 'active' : ''}>
-          <Link to="/VoGiaHuyProfolioReactjs/work">
+        <li className={location.pathname === '/work' ? 'active' : ''}>
+          <Link to="/work">
             <span className="material-icons">work</span>
             <p>Work</p>
           </Link>
         </li>
-        <li className={location.pathname === '/VoGiaHuyProfolioReactjs/skills' ? 'active' : ''}>
-          <Link to="/VoGiaHuyProfolioReactjs/skills">
+        <li className={location.pathname === '/skills' ? 'active' : ''}>
+          <Link to="/skills">
             <span className="material-icons">code</span>
             <p>Skills</p>
           </Link>
         </li>
-        <li className={location.pathname === '/VoGiaHuyProfolioReactjs/certs' ? 'active' : ''}>
-          <Link to="/VoGiaHuyProfolioReactjs/certs">
+        <li className={location.pathname === '/certs' ? 'active' : ''}>
+          <Link to="/certs">
             <span className="material-icons">verified</span>
             <p>Certs</p>
           </Link>
         </li>
-        <li className={location.pathname === '/VoGiaHuyProfolioReactjs/reviews' ? 'active' : ''}>
-          <Link to="/VoGiaHuyProfolioReactjs/reviews">
+        <li className={location.pathname === '/reviews' ? 'active' : ''}>
+          <Link to="/reviews">
             <span className="material-icons">rate_review</span>
             <p>Reviews</p>
           </Link>
