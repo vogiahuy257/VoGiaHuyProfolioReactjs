@@ -7,11 +7,6 @@ Welcome to the **VoGiaHuyProfolioReactjs** project! This is a personal portfolio
 - **React.js**: A JavaScript library for building user interfaces, developed and maintained by Facebook. It allows us to create interactive UIs with a component-based architecture.
 - **Vite.js**: A next-generation front-end tool that provides a faster and leaner development experience for modern web projects. It serves as the build tool and development server.
 
-## 📸 Screenshots
-
-![Portfolio Screenshot](https://via.placeholder.com/800x400?text=Portfolio+Screenshot)  
-*Click to view a screenshot of the project.*
-
 ## 📍 Live Site
 
 You can view the live version of the portfolio at:  
