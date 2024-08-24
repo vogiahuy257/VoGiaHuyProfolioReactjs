@@ -8,12 +8,6 @@ function SidebarMobile() {
   return (
     <nav className="sidebar-mobile">
       <ul className="menu">
-        <li className={location.pathname === '/' ? 'active' : ''}>
-          <Link to="/">
-            <span className="material-icons">person</span>
-            <p>Home</p>
-          </Link>
-        </li>
         <li className={location.pathname === '/work' ? 'active' : ''}>
           <Link to="/work">
             <span className="material-icons">work</span>
@@ -24,6 +18,12 @@ function SidebarMobile() {
           <Link to="/skills">
             <span className="material-icons">code</span>
             <p>Skills</p>
+          </Link>
+        </li>
+        <li className={location.pathname === '/' ? 'active' : ''}>
+          <Link to="/">
+            <span className="material-icons">person</span>
+            <p>Home</p>
           </Link>
         </li>
         <li className={location.pathname === '/certs' ? 'active' : ''}>

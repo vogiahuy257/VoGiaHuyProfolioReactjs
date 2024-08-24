@@ -7,6 +7,7 @@ function Skill() {
       <div className="skills-list">
         {skillsData.map(skill => (
           <div key={skill.id} className="skill-item">
+
             <img className="skill-icon" src={skill.icon} alt={skill.title} />
             <h2>{skill.title}</h2>
             <div className="skill-images">
@@ -14,6 +15,7 @@ function Skill() {
                 <img key={index} className="skill-image" src={skillImg} alt="Skill" />
               ))}
             </div>
+            
           </div>
         ))}
       </div>

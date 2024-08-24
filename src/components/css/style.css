@@ -477,20 +477,58 @@ header #toggle-menu:hover {
     display: flex;
     flex-direction: column;
     flex: 1 1 30%; 
-    max-width: 40%;
-    height: auto;
-    box-shadow: 0px 0px 10px var(--box-shadow);
+    max-width: 400px;
+    height: 450px;
     border-radius: var(--boder-radius);
-    overflow: hidden;
     position: relative;
     text-align: center;
-    transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    z-index: 10;
+    background-color: var(--color-box-black);
+}
+
+@property --angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+#main .Work .experience-item::after,
+#main .Work .experience-item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
+    height: 100%;
+    --angle: 0deg;
+    background-image: conic-gradient(
+        from var(--angle), #161616, #212121,#161616,#42a500,#161616, #212121,#161616,#47b100
+    );
+    animation: autoRotate 4s linear infinite;
+    z-index: -1;
+    padding: 2px;
+    pointer-events: none;
+    border-radius: var(--boder-radius);
+    box-sizing: unset;
+}
+
+#main .content .experience-item::before {
+    filter: blur(15px);
+    opacity: 0.8;
+}
+
+
+@keyframes autoRotate {
+    to{
+        --angle: 360deg;
+    }
 }
 
 
 #main .content .experience-item:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 
@@ -498,19 +536,22 @@ header #toggle-menu:hover {
     width: 100%;
     height: 340px;
     object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
-#main .content .experience-text {
-    padding: 15px;
+#main .content .experience-text{
+    background-color: var(--color-box-black);
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
  
 #main .content .experience-text h2 {
     margin-top: 0;
-    font-size: 1.25rem;
-}
-
-#main .content .experience-text p {
-    margin: 5px 0;
+    font-size: larger;
+    padding: 20px;
 }
 
 #main .content .experience-item .box-time {
@@ -518,9 +559,9 @@ header #toggle-menu:hover {
     top: 1rem;
     right: 1rem;
     z-index: 10;
-    padding: 10px;
-    border-radius: var(--boder-radius);
-    background-color: rgba(15, 15, 15, 0.692);
+    padding: 9px;
+    border-radius: 10px;
+    background-color: rgba(45, 45, 45, 0.733);
     color: var(--bgcolor-active);
 }
 
@@ -579,25 +620,53 @@ header #toggle-menu:hover {
   }
   
   .skill-item {
-    background-color: var(--bgcolor-active);
+    background-color: var(--container--bgcolor);
     border-radius: 0.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     text-align: center;
     flex: 1 1 calc(33.333% - 2rem);
     max-width: calc(33.333% - 2rem);
+    position: relative;
   }
+
+ .skill-item::after,.skill-item::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
+    height: 100%;
+    --angle: 0deg;
+    background-image: conic-gradient(
+        from var(--angle) , #1f2520, #000000, #6b8e23
+    );
+    animation: autoRotate 3s linear infinite;
+    z-index: -1;
+    padding: 2px;
+    pointer-events: none;
+    border-radius: 0.5rem;
+    box-sizing: unset;
+ }
+
+ .skill-item::after{
+    filter: blur(10px);
+ }
+
+
   
   .skill-item img.skill-icon {
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
     object-fit: contain;
   }
   
   .skill-item h2 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 1rem 0;
-    color: var(--color-active-hover);
+    font-weight: 800;
+    color: var(--bgcolor-active);
   }
   
   .skill-images {
@@ -653,8 +722,8 @@ header #toggle-menu:hover {
     }
   
     .skill-image {
-      width: 1.25rem;
-      height: 1.25rem;
+      width: 1.3rem;
+      height: 1.3rem;
     }
   }
 

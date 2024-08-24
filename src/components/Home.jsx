@@ -13,7 +13,7 @@ function Home() {
       <div className="box-img">
         <img src="./img/huy.jpg" alt="avatar"/>
         <div className="text-img">
-          <p>"I believe that when someone keeps striving, 'genius' is just a term, and nothing is impossible in this world as long as you believe you can achieve it."</p>
+        <p>"I believe that with perseverance and a positive mindset, we can overcome challenges and achieve our goals."</p>
         </div>
       </div>
     </section>
