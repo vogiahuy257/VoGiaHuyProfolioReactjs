@@ -8,8 +8,8 @@ function Sidebar() {
   return (
     <nav className="sidebar">
       <ul className="menu">
-        <li className={location.pathname === '/' ? 'active' : ''}>
-          <Link to="/">
+        <li className={location.pathname === '/home' ? 'active' : ''}>
+          <Link to="/home">
             <span className="material-icons">person</span>
             <p>Home</p>
           </Link>
