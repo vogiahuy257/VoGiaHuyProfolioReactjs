@@ -20,8 +20,8 @@ function SidebarMobile() {
             <p>Skills</p>
           </Link>
         </li>
-        <li className={location.pathname === '/home' ? 'active' : ''}>
-          <Link to="/home">
+        <li className={location.pathname === '/' ? 'active' : ''}>
+          <Link to="/">
             <span className="material-icons">person</span>
             <p>Home</p>
           </Link>
