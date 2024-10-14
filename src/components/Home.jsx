@@ -11,7 +11,7 @@ function Home() {
       </div>
 
       <div className="box-img">
-        <img src="./img/huy.jpg" alt="avatar"/>
+        <img src="./img/avatar.jpg" alt="avatar"/>
         <div className="text-img">
         <p>"I believe that with perseverance and a positive mindset, we can overcome challenges and achieve our goals."</p>
         </div>
