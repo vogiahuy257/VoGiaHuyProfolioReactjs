@@ -18,6 +18,7 @@ function Content() {
         <Route path="/skills" element={<Skill />} />
         <Route path="/certs" element={<Certs />} />
         <Route path="/reviews" element={<Reviews />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </main>
   );
