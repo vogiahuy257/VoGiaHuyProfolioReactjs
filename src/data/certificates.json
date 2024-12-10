@@ -47,6 +47,13 @@
       "image": "./img/vietjapan-internship.jpg",
       "issuer": "General",
       "details": "- 📘 Internship Overview: Practical experience working in a digital technology company.<br/>- 📚 Key Responsibilities: Contributing to web development projects, collaborating with development teams, and applying industry best practices.<br/>- 🛠️ Skills Gained: Practical skills in web development, teamwork, and project management.<br/>- 🏆 Projects: Involvement in real-world projects with a focus on web technologies and software development practices."
-    }
+    },
+    {
+      "id": "Top20 - AIoT Innoworks 2024",
+      "title": "AIoT Innoworks 2024 - Smart Aquaculture System",
+      "image": "./img/Cef_innorWork.jpg",
+      "issuer": "General",
+      "details": "<ul><li><strong>🌟 Competition Overview:</strong> Participated in AIoT Innoworks 2024, showcasing innovative solutions leveraging AI and IoT technologies.</li><li><strong>🐟 Project:</strong> Smart Aquaculture System designed to optimize fish farming processes.</li><li><strong>📊 Technology Used:</strong> Integrated LSTM algorithms to predict water quality parameters, ensuring a sustainable and efficient aquaculture environment.</li><li><strong>💡 Key Features:</strong> Real-time monitoring, automated alerts, and actionable insights for maintaining optimal water conditions.</li><li><strong>🏆 Achievements:</strong> Recognized as one of the Top 20 projects for its innovative approach and practical applications in aquaculture management.</li></ul>"
+    }        
   ]
   
