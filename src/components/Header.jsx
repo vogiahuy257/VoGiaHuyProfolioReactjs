@@ -8,7 +8,7 @@ function Header() {
         <a href="https://www.facebook.com/profile.php?id=100023020324055">
           <img width="25px" height="25px" src="./img/1facebook.png" alt="facebook icon" />
         </a>
-        <a href="https://github.com/vogiahuy257/VoGiaHuyProfolio">
+        <a href="https://github.com/vogiahuy257">
           <img width="25px" height="25px" src="./img/github.png" alt="github icon" />
         </a>
       </div>
