@@ -6,10 +6,10 @@ function Certs() {
   const [selectedCert, setSelectedCert] = useState(null);
 
   const groupTitles = {
+    'General': 'Certificates from General',
     'Google': 'Certificates from Google',
     'IBM': 'Certificates from IBM',
-    'Meta': 'Certificates from Meta',
-    'General': 'Certificates from General'
+    'Meta': 'Certificates from Meta'
   };
 
   // Nhóm chứng chỉ theo nhà phát hành
