@@ -6,7 +6,7 @@ function Home() {
     <section className="box-content Home">
       <div className="text-content">
         <h1>Welcome to my portfolio!</h1>
-        <p>I'm Võ Gia Huy, a Front-end developer and UI/UX designer.<br/>With a passion for crafting seamless user experiences. My goal is to bring ideas to life through clean, efficient code and thoughtful design.</p>
+        <p>I'm Võ Gia Huy. <br/>I believe that growth is a continuous journey, and every goal is just another step towards becoming a better version of myself.</p>
         <a href="mailto:vogiahuy257@gmail.com" className="btn">Contact Me</a>
       </div>
 

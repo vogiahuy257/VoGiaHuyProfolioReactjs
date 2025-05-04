@@ -14,6 +14,13 @@
       "details": "<ul><li><strong>🌟 Competition Overview:</strong> Participated in AIoT Innoworks 2024, showcasing innovative solutions leveraging AI and IoT technologies.</li><li><strong>🐟 Project:</strong> Smart Aquaculture System designed to optimize fish farming processes.</li><li><strong>📊 Technology Used:</strong> Integrated LSTM algorithms to predict water quality parameters, ensuring a sustainable and efficient aquaculture environment.</li><li><strong>💡 Key Features:</strong> Real-time monitoring, automated alerts, and actionable insights for maintaining optimal water conditions.</li><li><strong>🏆 Achievements:</strong> Recognized as one of the Top 20 projects for its innovative approach and practical applications in aquaculture management.</li></ul>"
     },
     {
+      "id": "ibm-full-stack",
+      "title": "IBM Full Stack Software Developer",
+      "image": "./img/ibm-full-stack.png",
+      "issuer": "IBM",
+      "details": "- 📘 Overview: This Professional Certificate encompasses 10 courses covering various application development and cloud technologies.<br/>- 📚 Key Topics:<br/>  - HTML, CSS, JavaScript, GitHub<br/>  - Node.js, React<br/>  - Cloud Native practices, DevOps, CI/CD<br/>  - Containers, Docker, Kubernetes, OpenShift<br/>  - Python programming<br/>  - Databases, SQL, NoSQL, Django ORM<br/>  - Bootstrap<br/>  - Application Security, Microservices, Serverless computing<br/>- 🛠️ Skills Gained:<br/>  - Developing cloud-native applications using modern technologies and practices.<br/>  - Hands-on experience with application development, cloud deployments, and CI/CD pipelines.<br/>  - Deployment of multiple applications on cloud platforms, application security, and microservices architecture.<br/>- 🏆 Projects:<br/>  - Capstone project demonstrating comprehensive application of learned skills.<br/>  - Development and delivery of a Software as a Service (SaaS) solution using cloud-native methodologies."
+    },
+    {
       "id": "google-ai",
       "title": "Google AI Essentials",
       "image": "./img/google-ai-essentials.png",
@@ -33,13 +40,6 @@
       "image": "./img/Crash-Course-on-Python.png",
       "issuer": "Google",
       "details": "- 📘 Overview: A foundational course in Python programming designed for beginners.<br/>- 📚 Key Topics: Python syntax, data structures, control flow, and basic libraries.<br/>- 🛠️ Skills Gained: Writing Python scripts, working with data, and creating automation tools.<br/>- 🏆 Projects: Practical exercises and projects involving data manipulation, web scraping, and automation."
-    },
-    {
-      "id": "ibm-full-stack",
-      "title": "IBM Full Stack Software Developer",
-      "image": "./img/ibm-full-stack.png",
-      "issuer": "IBM",
-      "details": "- 📘 Overview: This Professional Certificate encompasses 10 courses covering various application development and cloud technologies.<br/>- 📚 Key Topics:<br/>  - HTML, CSS, JavaScript, GitHub<br/>  - Node.js, React<br/>  - Cloud Native practices, DevOps, CI/CD<br/>  - Containers, Docker, Kubernetes, OpenShift<br/>  - Python programming<br/>  - Databases, SQL, NoSQL, Django ORM<br/>  - Bootstrap<br/>  - Application Security, Microservices, Serverless computing<br/>- 🛠️ Skills Gained:<br/>  - Developing cloud-native applications using modern technologies and practices.<br/>  - Hands-on experience with application development, cloud deployments, and CI/CD pipelines.<br/>  - Deployment of multiple applications on cloud platforms, application security, and microservices architecture.<br/>- 🏆 Projects:<br/>  - Capstone project demonstrating comprehensive application of learned skills.<br/>  - Development and delivery of a Software as a Service (SaaS) solution using cloud-native methodologies."
     },
     {
       "id": "react-frontend",
