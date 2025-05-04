@@ -13,7 +13,7 @@ function Home() {
       <div className="box-img">
         <img src="./img/avatar.jpg" alt="avatar"/>
         <div className="text-img">
-        <p>"I believe that with perseverance and a positive mindset, we can overcome any challenge and achieve our goals."</p>
+        <p>"Goals are not a destination, but a journey of continuous learning and growth, to become the best version of oneself."</p>
         </div>
       </div>
     </section>

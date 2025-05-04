@@ -7,8 +7,8 @@ function Certs() {
 
   const groupTitles = {
     'General': 'Certificates from General',
-    'Google': 'Certificates from Google',
     'IBM': 'Certificates from IBM',
+    'Google': 'Certificates from Google',
     'Meta': 'Certificates from Meta'
   };
 
